@@ -113,6 +113,9 @@ defmodule AfricasTalkerSms do
     ## Examples
 
         iex> AfricasTalkerSms.send_non_premium_sms("my_at_username", "my_at_api_key", "+254711XXXYYY", "This is a text message", sender_id: "SENDERID")
+        "The supplied authentication is invalid"
+    
+    ## A sample of a successful response (Json)
         "{\"SMSMessageData\":{\"Message\":\"Sent to 1/1 Total Cost: KES 0.8000\",\"Recipients\":[{\"cost\":\"KES 0.8000\",\"messageId\":\"ATXid_3b534efa3ea126c4893d656d61c17e59\",\"messageParts\":1,\"number\":\"+254711XXXYYY\",\"status\":\"Success\",\"statusCode\":102}]}}"
 
   """
