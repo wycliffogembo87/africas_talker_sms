@@ -26,7 +26,3 @@ Example:
 config :africas_talker_sms, size: 100, overflow: 10 
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/africas_talker_sms](https://hexdocs.pm/africas_talker_sms).
-
