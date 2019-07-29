@@ -7,8 +7,8 @@ defmodule AfricasTalkerSms.MixProject do
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
-      description: description,
-      package: package
+      description: description(),
+      package: package(),
       deps: deps()
     ]
   end
@@ -18,6 +18,7 @@ defmodule AfricasTalkerSms.MixProject do
     An Elixir based Africastalking SMS API Wrapper.
     """
   end
+
   defp package do
     [
       files: ["lib", "mix.exs", "README*", "LICENSE*", "CHANGELOG*"],

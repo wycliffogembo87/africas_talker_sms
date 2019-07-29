@@ -42,7 +42,6 @@ defmodule AfricasTalkerSms.Worker do
         _caller,
         state
       ) do
-
     body =
       {:form,
        [

@@ -26,7 +26,8 @@ defmodule AfricasTalkerSms.Application do
       {:name, {:local, :worker}},
       {:worker_module, AfricasTalkerSms.Worker},
       {:size, Application.get_env(:africas_talker_sms, :size, @default_poolboy_size)},
-      {:max_overflow, Application.get_env(:africas_talker_sms, :max_overflow, @default_poolboy_overflow)}
+      {:max_overflow,
+       Application.get_env(:africas_talker_sms, :max_overflow, @default_poolboy_overflow)}
     ]
   end
 end
