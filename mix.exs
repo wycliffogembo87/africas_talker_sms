@@ -7,7 +7,23 @@ defmodule AfricasTalkerSms.MixProject do
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
+      description: description,
+      package: package
       deps: deps()
+    ]
+  end
+
+  defp description do
+    """
+    An Elixir based Africastalking SMS API Wrapper.
+    """
+  end
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README*", "LICENSE*", "CHANGELOG*"],
+      maintainers: ["Wycliff Ogembo"],
+      licenses: ["Apache License 2.0"],
+      links: %{"GitHub" => "hhttps://github.com/wycliffogembo87/africas_talker_sms"}
     ]
   end
 
