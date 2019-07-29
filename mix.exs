@@ -24,7 +24,7 @@ defmodule AfricasTalkerSms.MixProject do
       files: ["lib", "mix.exs", "README*", "LICENSE*", "CHANGELOG*"],
       maintainers: ["Wycliff Ogembo"],
       licenses: ["Apache License 2.0"],
-      links: %{"GitHub" => "hhttps://github.com/wycliffogembo87/africas_talker_sms"}
+      links: %{"GitHub" => "https://github.com/wycliffogembo87/africas_talker_sms"}
     ]
   end
 
